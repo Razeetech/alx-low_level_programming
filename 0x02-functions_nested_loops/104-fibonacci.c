@@ -13,7 +13,7 @@ int main(void)
 	unsigned long int bef1;
 	unsigned long int bef2;
 	unsigned long int aft1;
-	unsignedlong int aft2;
+	unsigned long int aft2;
 
 	printf("%lu", bef);
 
