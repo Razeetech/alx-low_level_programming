@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - print the 9 times table
+ * times_table - prints times table
  * Return: void
  */
 
@@ -14,7 +14,7 @@ int rep;
 while (a <= 9)
 {
 	b = 0;
-	while (b <= 9);
+	while (b <= 9)
 	{
 		rep = a * b;
 		if (b == 0)
