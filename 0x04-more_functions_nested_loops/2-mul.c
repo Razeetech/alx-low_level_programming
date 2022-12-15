@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * mu1 - function that multiplies two intergrs
+ * mul - function to multiply input a and b
  * @a: first input
  * @b: second input
- * Return: multiplication result
+ * Return: a * b
  */
+
 int mul(int a, int b)
 {
 	return (a * b);
