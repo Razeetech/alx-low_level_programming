@@ -1,0 +1,19 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * @a: array
+ * @n: number of values to be printed
+ */
+void print_array(int *a, int n)
+{
+	int t;
+	for (t = 0; t < n; t++)
+	{
+		printf("\d", a[t]);
+		if (t != n -q)
+			printf(", ");
+	}
+
+	printf("\n');
+}
