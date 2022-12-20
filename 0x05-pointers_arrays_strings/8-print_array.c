@@ -11,9 +11,9 @@ void print_array(int *a, int n)
 	for (t = 0; t < n; t++)
 	{
 		printf("\d", a[t]);
-		if (t != n -q)
+		if (t != n - a)
 			printf(", ");
 	}
 
-	printf("\n');
+	printf("\n")
 }
