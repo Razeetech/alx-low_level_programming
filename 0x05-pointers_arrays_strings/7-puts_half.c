@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *main - check  the code to print half of string
+ * main - check  the code to print half of string
  * puts_half - prints half of a string
  * @str: input
  */
@@ -16,7 +16,7 @@ void puts_half(char *str)
 	}
 
 	str -= (len / 2);
-	while (*str++)
+	while (*str++ != '\0')
 	{
 		_putchar(*str);
 		str++;
