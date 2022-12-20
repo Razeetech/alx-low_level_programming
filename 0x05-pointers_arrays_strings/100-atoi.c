@@ -20,13 +20,13 @@ int _atoi(char *s)
 		{
 			if (size > 0)
 				m *= 10;
-			size++
+			size++;
 		}
 		count++;
 	}
 	for (i = count - size; i < count; i++)
 	{
-		oi =oi + ((*(s + i) - 48) * m);
+		oi = oi + ((*(s + i) - 48) * m);
 		m /= 10;
 	}
 	return (oi * pn);
