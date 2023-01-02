@@ -5,7 +5,7 @@
  * @s: string
  * @c character to locate
  * Return: pointer to the firstoccurence
- * */
+ */
 char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
