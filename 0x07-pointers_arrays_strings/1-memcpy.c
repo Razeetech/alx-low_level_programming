@@ -6,7 +6,7 @@
  * @n: lenght of buffer
  * Return: new string
  */
-char *_memcpy(char *ss, char*sf, unsigned int n)
+char *_memcpy(char *ss, char *sf, unsigned int n)
 {
 	unsigned int i = 0;
 
