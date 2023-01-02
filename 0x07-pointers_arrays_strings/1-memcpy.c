@@ -12,7 +12,7 @@ char *_memcpy(char *ss, char *sf, unsigned int n)
 
 	while (i < n)
 	{
-		*(ss + 1) = *(sf + 1);
+		*(ss + i) = *(sf + i);
 		i++;
 	}
 	return (ss);
