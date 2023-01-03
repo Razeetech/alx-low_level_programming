@@ -14,7 +14,7 @@ char *_strstr(char *ms, char *s)
 	{
 		str1 = ms;
 		str2 = s;
-		while (*ms != '\0' && *str2 != '\0' && ms == *str2)
+		while (*ms != '\0' && *str2 != '\0' && *ms == *str2)
 		{
 			ms++;
 			str2++;
