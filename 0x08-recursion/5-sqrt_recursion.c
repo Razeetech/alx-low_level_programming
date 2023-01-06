@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * sqrt_recursion - check if square of number exist
- * @n: number 
+ * @n: number
  * @s: possible number
  * Return: square root of number
  */
