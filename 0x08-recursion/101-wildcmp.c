@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * wildcmp - entry point
- * @*s1: input
- * @*s2: input
- * Return: 0
+ * wildcmp - compare two strings
+ * @*s1: string 1 input
+ * @*s2: string 2 input
+ * Return: 1 if identical and 0 if not
  */
 int wildcmp(char *s1, char *s2)
 {
@@ -14,5 +13,7 @@ int wildcmp(char *s1, char *s2)
 		return (1);
 	if (*s1 == *s2)
 		return (wildcmp(s1 + 1, s2 + 1));
+	if (*s2 == '*')
+		return (wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2));
 	return (0);
 }
