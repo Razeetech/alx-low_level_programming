@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 		{
 			int b;
 			char *str;
+
 			str = argv[i];
 			for (b = 0; str[b] != '\0'; b++)
 			{
