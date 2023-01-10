@@ -1,26 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
+int change(int cents);
 /**
  * main - print count left
- * @args: parameter entry
+ * @argc: parameter entry
  * @argv: one number 
  * Return: zero number
  */
 int main(int args, char *argv[])
 {
-	int c, coins = 0;
-
 	if (args != 2)
+
 	{
-		printf("Error\n");
+		printf("%s\n", "Error");
 		return (1);
 	}
-	c = atoi(argv[1]);
-	if (c < 0)
+	else if (argc < 0)
 	{
-		printf("0\n");
 		return (0);
 	}
+	printf("%d\n", change(atoi(argv[1])));
+	return (0);
+
+
 	for (c >= 0;)
 	{
 		if (c >= 25)
