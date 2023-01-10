@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - Program that add positive number
- * @argc: This is the argument count
- * @argv: arg vector
+ * main - entry point
+ * @argc: argument
+ * @argv: array
  * Return: 0
  */
 int main(int argc, char *argv[])
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	{
 		if (!atoi(argv[i]))
 		{
-			printf("%s\m", "Error");
+			printf("%s\n", "Error");
 			return (1);
 		}
 		sum += atoi(argv[i]);
