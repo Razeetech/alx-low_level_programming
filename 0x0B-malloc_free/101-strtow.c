@@ -18,7 +18,7 @@ int wordnos(char *s)
 			flag = 0;
 		else if (flag == 0)
 		{
-			flag1=1;
+			flag = 1;
 			w++;
 		}
 	}
