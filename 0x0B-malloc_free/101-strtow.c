@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * sordnos - count of words
+ * wordnos - count of words
  * @s: pointer
  * Return: number of words
  */
@@ -24,8 +24,9 @@ int wordnos(char *s)
 	}
 	return (w);
 }
+
 /**
- * ==strtow - splits a string into words
+ * **strtow - splits a string into words
  * @str: string to split
  * Return: pointer to array
  */
