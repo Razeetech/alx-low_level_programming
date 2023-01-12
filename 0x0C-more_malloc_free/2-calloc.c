@@ -4,7 +4,8 @@
 /**
  * _calloc - print 0sinto 2d grid
  * @nmemb: array
- * @size: sizeReturn: 0
+ * @size: size
+ * Return: 0
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -16,6 +17,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 
 	arr = malloc(nmemb * size);
+
 	if (arr == NULL)
 		return (NULL);
 
