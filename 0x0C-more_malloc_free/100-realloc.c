@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "main"
+#include "main.h"
 /**
  * _realloc - reallocates old to new, set conditions from problem
  * @ptr: pointer to memory prev alloc, must free end
