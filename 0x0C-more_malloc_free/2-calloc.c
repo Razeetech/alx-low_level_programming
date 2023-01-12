@@ -2,10 +2,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _calloc - print 0s into 2D grid
+ * _calloc - print 0sinto 2d grid
  * @nmemb: array
  * @size: sizeReturn: 0
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *arr;
