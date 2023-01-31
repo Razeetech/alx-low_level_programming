@@ -6,12 +6,12 @@ nclude "lists.h"
  */
 void free_listint(listint_t *head)
 {
-	if (head == NULL)
-		return;
-
-	while (head)
+	  listint_t *temp;
+	  
+	  while (head)
 	{
+		temp = head->next;
 		free(head);
-		head = head->next;
+		head = temp;
 	}
 }
